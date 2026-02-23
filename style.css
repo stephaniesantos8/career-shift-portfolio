@@ -209,7 +209,7 @@ button {
 }
 
 button:hover {
-  background: #4f46e5;
+  background:  #4f46e5;
 }
 .projects-grid{
   display:grid;
