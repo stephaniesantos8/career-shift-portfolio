@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stephanie Rodrigues Santos | Front-End</title>
+    <meta name="description" content="Career-shift portfolio: projects, skills, and contact." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <a class="brand" href="#top">Stephanie</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a class="btn small" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="badge">Career shift → Tech</p>
+                    <h1>Stephanie Rodrigues Santos</h1>
+                    <p class="lead">
+                        Aspiring front-end developer transitioning into tech.
+                    </p>
+
+                    <div class="cta">
+                        <a class="btn" href="#projects">See projects</a>
+                        <a class="btn ghost" href="#contact">Let’s talk</a>
+                    </div>
+
+                    <div class="meta">
+                        <span>📍 Florida</span>
+                        <span>•</span>
+                        <span>Open to entry-level opportunities</span>
+                    </div>
+                </div>
+
+                <div class="card profile-card">
+                    <img src="imagens/perfil.jpg.png" alt="Stephanie Rodrigues Santos" class="avatar">
+                    <h2 class="card-title">Stephanie Rodrigues Santos</h2>
+                    <p class="card-subtitle">Aspiring Front-End Developer</p>
+                    <p class="card-text">
+                        Transitioning into tech and building modern, responsive web projects with a strong focus on
+                        learning and growth.
+                    </p>
+                    <div class="card-links">
+                        <a href="https://www.linkedin.com/in/stephanie-rodrigues-santos-3b9451232/"
+                            aria-label="LinkedIn">LinkedIn</a>
+                        <a href="https://github.com/stephaniesantos8" aria-label="GitHub">GitHub</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <p>
+                <p>
+                    I’m transitioning into tech and building a strong foundation in front-end development.
+                    I enjoy solving problems, learning new tools, and improving my projects step by step.
+                    My goal is to grow as a developer and contribute to meaningful products.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>HTML</h3>
+                        <p>Semantic structure, accessibility basics.</p>
+                    </div>
+                    <div class="card">
+                        <h3>CSS</h3>
+                        <p>Flexbox, Grid, responsive layout.</p>
+                    </div>
+                    <div class="card">
+                        <h3>JavaScript</h3>
+                        <p>Starting with DOM + interactivity.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Git & GitHub</h3>
+                        <p>Version control + GitHub Pages deploy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <h3>Career Shift Landing Page</h3>
+                        <p>Modern responsive landing page introducing my transition into tech.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live</a>
+                            <a href="#" target="_blank">Code</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Login Page UI</h3>
+                        <p>Clean login interface with modern styling.</p>
+                        <div class="project-links">
+                            <a href="" target="_blank">Live</a>
+                            <a href="" target="_blank">Code</a>
+                        </div>
+                    </article>
+
+                </div>
+
+
+
+
+
+
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you want to connect, reach me here:</p>
+
+                <div class="contact">
+                    <a class="btn" href="mailto:youremail@example.com">Email me</a>
+                    <a class="btn ghost" href="#">LinkedIn</a>
+                    <a class="btn ghost" href="#">GitHub</a>
+                </div>
+
+                <p class="small muted">© <span id="year"></span> Stephanie Rodrigues Santos</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
