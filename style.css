@@ -234,3 +234,18 @@ h1{
   .grid{ grid-template-columns: 1fr; }
   .nav-links a:not(.btn){ display:none; }
 }
+.tags{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:12px;
+}
+
+.tag{
+  font-size:.85rem;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+}
